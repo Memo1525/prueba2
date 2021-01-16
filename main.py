@@ -2,6 +2,7 @@ import pygame, sys , random
 
 #another size for small screens 288 x 512 you need to quit scale2x
 
+
 def draw_floor():
     scren.blit(floor_surface, (floor_x_pos, 900))
     scren.blit(floor_surface, (floor_x_pos + 576,900))
@@ -88,4 +89,4 @@ while True:
 
 
     pygame.display.update()
-    clock.tick(120)
+    clock.tick(120) # este es el contador
